@@ -18,7 +18,6 @@
         <!--Navbar section-->
         <div class="nav" id="subDiv-Div">
 
-            <div class="nav-bar">
                 <!--Navbar-logo-->
                 <img class="nav-logo" src="./assets/googlelogo.png">
 
@@ -36,9 +35,8 @@
                     <img class="input-icon3" src="./assets/svgexport-4.svg" alt="icon">
 
                 </div>
-            </div>
             <!--Other Icons found in the Navbar, after the input section-->
-            <div class="icons-icons">
+            <div class="icons-icons" id="subDiv-Div" >
                 <img class="nav-icon1" src="./assets/svgexport-8.svg" alt="icon">
                 <img class="nav-icon2" src="./assets/svgexport-9.svg" alt="icon">
                 <img class="nav-icon3" src="./assets/unnamed google.png" alt="unnamed">
@@ -49,9 +47,9 @@
     </section1>
     <!--Navbar ends-->
 
-    <section2 id="subDiv-Div">
+    <section2>
         <!--Section2 starts-->
-        <div class="section-2" id="subDiv-Div">
+        <div class="section-2">
             <!--creating a div to contain all icons in section 2-->
             <div class="section2-iconDiv">
                 <a>
@@ -80,13 +78,14 @@
                 </a>
             </div>
 
-            <div class="tools" id="subDiv-Div">
+            <div class="tools">
                 Tools
             </div>
 
         </div>
     </section2>
-    <hr style="margin-bottom: 10px;">
+    <hr class="section2-hr">
+
 
     <!--section2 ends here-->
 
@@ -96,10 +95,11 @@
 
             <p id="section3-p1"> About 101,000,000 results (0.65 seconds) </p>
             <!--A div to flex the buttons and other contents-->
-            <div class="section3-flexedDiv" id="subDiv-Div">
+            <div id="subDiv-Div">
                 <div id="subDiv-Div">
-                    <h3>Lionel Messi </h3>
+                    <h3 style="margin-top: 10px;">Lionel Messi </h3>
                     <!-- The second p tag and icon should be put inside a div to enable flexing-->
+                   <div style="display: flex;">
                     <div class="section3-flexedDiv2">
                         <p id="section3-p2">Footballer</p>
                         <img src="./assets/svgexport-14.svg" alt="icon">
@@ -112,6 +112,7 @@
                     <button class="section3-btn">Stats</button>
                     <button class="section3-btn">Videos</button>
                     <button class="section3-btn">News</button>
+                </div>
                 </div>
             </div>
         </section3>
